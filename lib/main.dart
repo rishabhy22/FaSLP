@@ -1,3 +1,4 @@
+import 'package:fa_slp/UI/LoginAsAdmin.dart';
 import 'package:fa_slp/UI/LoginAsFaculty.dart';
 import 'package:fa_slp/UI/LoginChoose.dart';
 import 'package:fa_slp/UI/LoginasHOD.dart';
@@ -11,7 +12,7 @@ class Run extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: RegisterAdmin(),
+      home: LoginAdmin(),
     );
   }
 }
