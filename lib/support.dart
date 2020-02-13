@@ -49,3 +49,19 @@ enum Screens {
   FACULTY_HOME_PAGE,
   ADMIN_HOME_PAGE
 }
+
+mixin LoginScreenStyles{
+  final bgColor = Color.fromRGBO(255, 255, 255, 1);
+  final typeTextColor = Color.fromRGBO(0, 0, 0, 1);
+  //final testColor = Color(0xff000000);
+  final buttonColor = Color.fromRGBO(0, 42, 105, 1);
+  final shadowColor = Colors.grey;
+}
+
+mixin LoginChooseScreenStyle {
+  final buttonColor = Color.fromRGBO(255, 255, 255, 1);
+  final textColor = Color.fromRGBO(0, 42, 105, 1);
+  final hintTextColor=Colors.grey;
+  final shadowColor = Colors.grey;
+  final bgColor = Color.fromRGBO(255, 255, 255, 1);
+}
